@@ -4,7 +4,7 @@ import CurrentWeather from "./components/CurrentWeather.jsx";
 import ForecastList from "./components/ForecastList.jsx";
 import LoadingSpinner from "./components/LoadingSpinner.jsx";
 import UnitToggle from "./components/UnitToggle.jsx";
-import UseMyLocation from "./Components/UseMyLocation.jsx";
+import UseMyLocation from "./components/UseMyLocation.jsx";
 import HourlyChart from "./components/HourlyChart.jsx";
 import Footer from "./components/Footer.jsx";
 import { fetchCurrentByCoords, fetchForecastByCoords, reverseGeo } from "./utils/api";
