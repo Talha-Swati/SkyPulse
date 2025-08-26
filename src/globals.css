@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+/* Sunny */
+.bg-sunny {
+  background: linear-gradient(to right, #e06500, #dad0b5);
+  animation: sunnyAnimation 10s infinite alternate;
+}
+@keyframes sunnyAnimation {
+  0% { background-position: left top; }
+  100% { background-position: right bottom; }
+}
+
+/* Cloudy */
+.bg-cloudy {
+  background: linear-gradient(to top, #bdc3c7, #2c3e50);
+  animation: cloudyAnimation 12s infinite alternate;
+}
+@keyframes cloudyAnimation {
+  0% { filter: brightness(0.9); }
+  100% { filter: brightness(1.1); }
+}
+
+/* Rainy */
+.bg-rainy {
+  background: linear-gradient(to top, #1e3c72, #2a5298);
+  animation: rainyAnimation 8s infinite alternate;
+}
+@keyframes rainyAnimation {
+  0% { opacity: 0.95; }
+  100% { opacity: 1; }
+}
+
+/* Snowy */
+.bg-snowy {
+  background: linear-gradient(to top, #e0eafc, #cfdef3);
+  animation: snowyAnimation 15s infinite alternate;
+}
+@keyframes snowyAnimation {
+  0% { filter: blur(0px); }
+  100% { filter: blur(1px); }
+}
+
+/* Thunderstorm */
+.bg-thunder {
+  background: linear-gradient(to top, #232526, #414345);
+  animation: thunderAnimation 5s infinite alternate;
+}
+@keyframes thunderAnimation {
+  0% { filter: brightness(0.8); }
+  50% { filter: brightness(1.4); }
+  100% { filter: brightness(0.8); }
+}
+
+/* Mist / Fog */
+.bg-mist {
+  background: linear-gradient(to top, #757f9a, #d7dde8);
+  animation: mistAnimation 20s infinite alternate;
+}
+@keyframes mistAnimation {
+  0% { opacity: 0.9; }
+  100% { opacity: 1; }
+}
